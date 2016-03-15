@@ -1,0 +1,114 @@
+body {
+	margin: 0px;
+	background: #dedede;
+	font-family: 黑体;
+}
+#header {
+	width: 100%;
+	height: 4em;
+	background-color: #333;
+	display:block;
+	border: 0px 1px 0px 0px solid #7b7b7b;
+}
+#logo {
+	display: inline;
+}
+#logo img {
+	padding-left: 3em;
+	zoom: 0.8;
+	padding-top: 0.5em;
+}
+#nav{
+	float: right;
+}
+#nav li { 
+	float: left; 
+}
+#nav li a {
+	padding-right:2em; 
+	color:#fff;
+	font-size: 12px; 
+	text-decoration : none;
+}
+#passage1 {
+	background: #fff;
+	padding: 1.2em;
+	margin: 1.3em;
+	border: 1px solid #cdcdcd;
+	box-shadow:0.1em 0.1em 1px #909090;
+	line-height: 1.7em;
+}
+p {
+	text-indent: 2em;
+}
+h4 {
+	color: grey;
+	line-height: 10px;
+}
+span {
+	color: grey;
+	font-size: 13px;
+	line-height: 1em;
+}
+#ul1 li{
+	list-style: none;
+}
+#img {
+	padding: 1em;
+	margin: 1em;
+	border: 1px #d4d4d4 solid;
+	display: inline-block;
+	text-align: center;
+	zoom: 0.8;
+}
+#th1 {
+	color: #fff;
+}
+#sidebar {
+	border-left: 0.3em solid #ccc;
+	line-height: 2.5em;
+}
+h3 {
+	margin-left: 1em;
+}
+
+#box{
+	width: 100%;
+	display: inline-block;
+}
+#changeSize {
+	font-size: 0.9em;
+}
+#tip {
+	text-align: right;
+	width: 34%;
+	padding-right: 1em;
+	float: left;
+}
+#submit {
+	text-align: left;
+	width:55%;
+	float: left;
+}
+#btn {
+	border-radius: 10px; 
+	color: #ebedf6;
+	width: 100%;
+	height: 2.5em;
+	font-size: 1.1em;
+	background:#3355d0;
+	font-family: 黑体;
+}
+#footer {
+	width: 100%;
+	height: 60px;
+	background-color: #000;
+	display:block;
+	bottom:0;
+	text-align: center;
+}
+#footer p {
+	padding-top: 20px;
+	font-size: 12px; 
+	color: #fff;
+}
